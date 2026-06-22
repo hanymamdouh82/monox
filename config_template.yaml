@@ -1,0 +1,13 @@
+syncthing:
+  url: "http://localhost:8384"
+  api_key: "your_api_key"
+
+smart:
+  drives:
+    - sda
+    - sdb
+
+disk:
+  mounts:
+    - /
+    - /mnt/data

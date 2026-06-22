@@ -1,0 +1,39 @@
+# ─── Binaries & Executables ─────────────────────────────────────────────────
+# Compiled native application binaries (and Windows equivalents)
+/trdcmon
+/trdcmon.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# ─── Configuration Files ───────────────────────────────────────────────────
+# Exclude actual configuration targets containing live secret tokens or API keys.
+# (Keep config.yaml.example tracked in git instead)
+config.yaml
+*.local.yaml
+
+# ─── Test & Coverage Artifacts ─────────────────────────────────────────────
+*.test
+*.out
+/coverage.txt
+/profile.out
+
+# ─── IDE & Editor Configurations ───────────────────────────────────────────
+# JetBrains (GoLand, IntelliJ, etc.)
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# Local system artifacts
+.DS_Store
+Thumbs.db
+
+# ─── Go Module Workspace ───────────────────────────────────────────────────
+# Only ignored if you use local multi-module multi-repo development flows
+go.work
+go.work.sum
