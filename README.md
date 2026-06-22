@@ -2,11 +2,17 @@
 
 A lightweight, zero-fork, high-performance Terminal User Interface (TUI) dashboard tailored for homelab telemetry. Built in native Go using `gocui`, it minimizes CPU overhead by parsing host metrics directly from `/proc` filesystems.
 
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![Go Version](https://img.shields.io/badge/go-1.26+-00ADD8.svg)](https://golang.org)
+[![Status](https://img.shields.io/badge/status-alpha-orange.svg)]()
+
 ## Features
 
 - **Grid Layout:** 2-column x 4-row dashboard monitoring Temps, Memory, Docker statuses, Syncthing synchronization progress, SMART drive diagnostics, Disk space utilization, and System loads.
 - **Low Footprint:** Replaced traditional polling metrics libraries with optimized state-tracking `/proc` listeners, dropping steady-state CPU utilization below 0.5%.
 - **Interactive Navigation:** Supports interactive mouse-wheel viewport adjustments and standard keyboard cycling (`Tab` / `Shift+Tab`) with color-coded focused frame boundaries.
+
+![demo](demo/demo.gif)
 
 ## Installation & Static Compilation
 
