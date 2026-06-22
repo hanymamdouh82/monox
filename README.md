@@ -10,7 +10,7 @@ A lightweight, zero-fork, high-performance Terminal User Interface (TUI) dashboa
 
 - **Grid Layout:** 2-column x 4-row dashboard monitoring Temps, Memory, Docker statuses, Syncthing synchronization progress, SMART drive diagnostics, Disk space utilization, and System loads.
 - **Low Footprint:** Replaced traditional polling metrics libraries with optimized state-tracking `/proc` listeners, dropping steady-state CPU utilization below 0.5%.
-- **Interactive Navigation:** Supports interactive mouse-wheel viewport adjustments and standard keyboard cycling (`Tab` / `Shift+Tab`) with color-coded focused frame boundaries.
+- **Interactive Navigation:** Supports interactive mouse-wheel viewport adjustments and standard keyboard cycling (`Tab` / `Alt+Tab`) with color-coded focused frame boundaries.
 
 ![demo](demo/demo.gif)
 
