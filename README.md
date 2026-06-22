@@ -28,6 +28,7 @@ cp config.yaml.example config.yaml
 ### `config.yaml` Schema
 
 ```yaml
+name: <your_desired_screen_name>
 syncthing:
   url: "[http://127.0.0.1:8384](http://127.0.0.1:8384)"
   api_key: "your-syncthing-api-key"
