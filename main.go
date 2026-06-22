@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/hanymamdouh82/trdc03mon/internal/config"
-	"github.com/hanymamdouh82/trdc03mon/internal/fetcher"
+	"github.com/hanymamdouh82/monox/internal/config"
+	"github.com/hanymamdouh82/monox/internal/fetcher"
 	"github.com/jroimartin/gocui"
 )
 
@@ -93,7 +93,7 @@ func layout(g *gocui.Gui) error {
 		v.FgColor = gocui.ColorCyan | gocui.AttrBold
 
 		// Center the branding text dynamically based on terminal width
-		title := fmt.Sprintf(" %s // HOMELAB MONITORING CORE ", config.AppConfig.Name)
+		title := fmt.Sprintf(" %s // MONOX - MONITORE ON UNIX ", config.AppConfig.Name)
 		padding := (maxX - len(title)) / 2
 		if padding > 0 {
 			fmt.Fprint(v, strings.Repeat(" ", padding)+title)

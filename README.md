@@ -1,4 +1,4 @@
-# TRDCMON
+# MONOX
 
 A lightweight, zero-fork, high-performance Terminal User Interface (TUI) dashboard tailored for homelab telemetry. Built in native Go using `gocui`, it minimizes CPU overhead by parsing host metrics directly from `/proc` filesystems.
 
@@ -13,7 +13,7 @@ A lightweight, zero-fork, high-performance Terminal User Interface (TUI) dashboa
 To build a fully self-contained, statically linked binary independent of the host runtime or dynamic C libraries (ideal for seamless migration to remote Ubuntu server environments):
 
 ```bash
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags="-s -w -extldflags '-static'" -o trdcmon .
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -ldflags="-s -w -extldflags '-static'" -o monox .
 ```
 
 ## Configuration
@@ -48,14 +48,14 @@ disk:
 Run the executable. By default, it looks for a local `config.yaml` file in the execution scope:
 
 ```bash
-./trdcmon
+./monox
 
 ```
 
 To provide an explicit configuration path configuration, pass the `-config` flag:
 
 ```bash
-./trdcmon -config /etc/trdcmon/production.yaml
+./monox -config /etc/monox/production.yaml
 
 ```
 

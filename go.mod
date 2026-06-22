@@ -1,4 +1,4 @@
-module github.com/hanymamdouh82/trdc03mon
+module github.com/hanymamdouh82/monox
 
 go 1.24.0
 

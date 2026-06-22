@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/hanymamdouh82/trdc03mon/internal/config"
+	"github.com/hanymamdouh82/monox/internal/config"
 )
 
 type SyncthingStatus struct {

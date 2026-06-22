@@ -1,7 +1,7 @@
 # ─── Binaries & Executables ─────────────────────────────────────────────────
 # Compiled native application binaries (and Windows equivalents)
-/trdcmon
-/trdcmon.exe
+/monox
+/monox.exe
 *.exe
 *.exe~
 *.dll

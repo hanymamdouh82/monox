@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/hanymamdouh82/trdc03mon/internal/config"
+	"github.com/hanymamdouh82/monox/internal/config"
 )
 
 // Native struct map for smartctl -json telemetry output
