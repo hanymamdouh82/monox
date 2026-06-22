@@ -2,7 +2,7 @@
 
 A lightweight, zero-fork, high-performance Terminal User Interface (TUI) dashboard tailored for homelab telemetry. Built in native Go using `gocui`, it minimizes CPU overhead by parsing host metrics directly from `/proc` filesystems.
 
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Go Version](https://img.shields.io/badge/go-1.26+-00ADD8.svg)](https://golang.org)
 [![Status](https://img.shields.io/badge/status-alpha-orange.svg)]()
 
